@@ -62,5 +62,7 @@ docker compose up -d
 - Dê o comando terraform init para iniciar o terraform
 - em seguida, terraform plan para preparar para o deploy
 - e terraform apply -auto-approve -var-file="secrets.tfvars" para fazer o deploy no GCP
+- Acesse a instancia via SSH e faça o upload do docker-compose.yml e do .env
+- Dê o comando docker compose up -d para deixar seu site online
 - Lembre-se de criar um registro A em seu gerenciador de domínio apontando para o IP estático de sua aplicação.
 ```
