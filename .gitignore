@@ -1,0 +1,12 @@
+.env
+# Terraform
+.terraform*
+terraform.tfstate*
+*.json
+*.tfvars
+# SSH keys
+id_rsa*
+*.sh
+
+resources/.DS_Store
+.DS_Store
