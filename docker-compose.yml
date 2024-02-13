@@ -38,6 +38,7 @@ services:
     environment:
       - PMA_HOST=db
       - MYSQL_ROOT_PASSWORD=$MYSQL_ROOT_PASSWORD
+      - UPLOAD_LIMIT=300M
     ports:
       - "8080:80"
     networks:
